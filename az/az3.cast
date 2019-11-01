@@ -1,0 +1,12 @@
+{"version": 2, "width": 147, "height": 42, "timestamp": 1572651703, "idle_time_limit": 3.0, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.0, "o", "\u001b[3J\u001b[H\u001b[2J"]
+[2.214161, "o", "# "]
+[4.177212, "o", "acrid=$(az acr create -l northeurope -g aks-rg -n aksdemoacr9000 --sku Standard --admin-enabled --query id -o tsv)"]
+[4.568891, "o", "\r\n"]
+[16.448082, "o", "\r\u001b[K - Starting ..\r"]
+[16.449827, "o", "\r\u001b[K - Finished ..\r\r\u001b[K"]
+[16.7118, "o", "# "]
+[17.722285, "o", "echo $acrid"]
+[18.168709, "o", "\r\n"]
+[18.169009, "o", "/subscriptions/4867026e-803a-486a-a495-68c434d11d0c/resourceGroups/aks-rg/providers/Microsoft.ContainerRegistry/registries/aksdemoacr9000\r\n"]
+[18.169328, "o", "\r\n"]
