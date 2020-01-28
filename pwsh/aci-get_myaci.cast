@@ -1,4 +1,5 @@
 {"version": 2, "width": 135, "height": 32, "timestamp": 1580213538, "idle_time_limit": 1.0, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[5.916257, "o", "# "]
 [5.919961, "o", "\u001b[6n"]
 [5.920762, "o", "\u001b[6n"]
 [7.248793, "o", "\u001b[?25l"]

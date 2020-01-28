@@ -11,10 +11,10 @@ clear
 ./demo.sh pwsh aci-get_myaci
 echo -n "# "
 read
-./demo.sh az az-connect_to_aks_with_kubectl
+clear
+./demo.sh pwsh aci-myaci_logs
 echo -n "# "
 read
-./demo.sh az az-scale_aks
-echo -n "# "
-read
-./demo.sh az az-delete_aks-rg
+clear
+./demo.sh pwsh aci-delete_myaci-rg
+
