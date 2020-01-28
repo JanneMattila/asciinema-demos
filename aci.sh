@@ -3,9 +3,11 @@ clear
 ./demo.sh pwsh aci-create_myaci-rg
 echo -n "# "
 read
-./demo.sh az az-create_acr
+clear
+./demo.sh pwsh aci-create_myaci
 echo -n "# "
 read
+clear
 ./demo.sh az az-create_aks
 echo -n "# "
 read
