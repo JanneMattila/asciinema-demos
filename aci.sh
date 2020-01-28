@@ -8,7 +8,7 @@ clear
 echo -n "# "
 read
 clear
-./demo.sh az az-create_aks
+./demo.sh pwsh aci-get_myaci
 echo -n "# "
 read
 ./demo.sh az az-connect_to_aks_with_kubectl
